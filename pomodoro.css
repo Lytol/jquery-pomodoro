@@ -1,0 +1,39 @@
+#pomodoro-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: transparent url(b.png) repeat;
+    z-index: 99;
+}
+
+#pomodoro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+    #pomodoro .content {
+        background-color: #FFF;
+        border: 5px solid #555;
+        padding: 25px 50px;
+        border-radius: 25px;
+        -moz-border-radius: 25px;
+    }
+    
+    #pomodoro .content .timer {
+        display: block;
+        font: normal small-caps bold 5em Arial, sans-serif;
+    }
+    
+    #pomodoro .content ul.actions {
+        text-align: right;
+        list-style-type: none;
+        padding: 5px 0;
+    }
+    
+    #pomodoro .content ul.actions li {
+        display: inline;
+    }
